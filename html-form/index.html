@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+</head>
+<body>
+    <h1>Application Form</h1>
+    <h4>Please enter your details carefully and correct </h4>
+    <form action="">
+        <div>
+        <label for="Name">Enter your name
+               <input type="text" required id="Name" name="Name" placeholder="Enter Your Name" >
+        </label>
+   
+      </div>
+      <div>
+        <label for="Password">Enter Your Password</label>
+        <input type="password" id="Password" name="Password" placeholder="Enter Your Password">
+      </div>
+      <div>
+        <label for="Gender">Select your gender</label>
+         <input type="radio" id="female" name="Gender" value="Female">
+        <label for="female">Female</label>
+        <input type="radio" id="male" name="Gender" value="Male" >
+        <label for="male">Male</label>
+      </div>
+      <div>
+        <label for="Qualification">Choose your Highest Qulaification</label>
+        <select name="Qualification" required value="Qualification">
+            <option value="Select">select</option>
+             <option value="Intermediate">Intermediate</option>
+             <option value="Intermediate">Intermediate</option>
+             <option ,value="Graduation">Graduation</option>
+        </select>
+</div>
+    <textarea name="Comments"  id="Comments" placeholder="Your Thoughts">
+       </textarea>
+       <div>
+        <input type="checkbox" id="Subscribe" name="Subscribe" value="yes">
+        <label for="Subscribe">Subscribe to newsletter.
+        </label>
+       </div>
+       
+       <div>
+        
+<input type="submit" id="submit">
+       </div>
+    </form>
+</body>
+</html>
